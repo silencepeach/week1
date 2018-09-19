@@ -1,0 +1,15 @@
+{
+  "name": "week1",
+  "version": "1",
+  "description": "1주차",
+  "main": "index.js",
+  "author": "김대환",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+  "scripts": {
+  	"start": "node index.js"
+  	"start:dev": "nodemon index.js"
+  }
+}
