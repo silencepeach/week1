@@ -17,6 +17,13 @@ function div(a,b) {
 	return a / b;
 }
 
+function rem(a,b) {
+	if (b == 0) {
+		return new Error('zero reminder error.');
+	}
+	return a % b;
+}
+
 function getE() {
 	return Math.E;
 }
@@ -26,5 +33,6 @@ module.exports = {
 	sub: sub,
 	mul: mul,
 	div: div,
+	rem: rem,
 	getE: getE
 }
